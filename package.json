@@ -1,0 +1,23 @@
+{
+  "name": "ng_expensify_bot",
+  "version": "1.0.0",
+  "description": "This bot is used to track expenses in a group chat. It is based on the Telegram API and Google Sheets API.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc && node dist/bot.js",
+    "start": "tsc && node dist/bot.js"
+  },
+  "keywords": ["telegram", "bot", "typescript", "google", "sheets", "api"],
+  "author": "Nahuel Gómez",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.5.8",
+    "dotenv": "^16.3.1",
+    "googleapis": "^126.0.1",
+    "node-telegram-bot-api": "^0.61.0",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.61.7"
+  }
+}
